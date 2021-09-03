@@ -1,24 +1,24 @@
 {
-  "name": "websocket-echo-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arogonov/websocket-echo-server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/arogonov/websocket-echo-server/issues"
-  },
-  "homepage": "https://github.com/arogonov/websocket-echo-server#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "ws": "^8.2.1"
-  }
+	"name": "websocket-echo-server",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node ./app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arogonov/websocket-echo-server.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/arogonov/websocket-echo-server/issues"
+	},
+	"homepage": "https://github.com/arogonov/websocket-echo-server#readme",
+	"dependencies": {
+		"express": "^4.17.1",
+		"ws": "^8.2.1"
+	}
 }

@@ -11,11 +11,11 @@ const server = createServer(app);
 const wss = new WebSocket.Server({ server });
 
 wss.on('connection', function (ws) {
-  ws.on('message', async (message) => {
-    ws.send(message.toString());
-  });
+	ws.on('message', async (message) => {
+		ws.send(message.toString());
+	});
 });
 
 server.listen(8080, function () {
-  console.log('Listening on http://0.0.0.0:8080');
+	console.log('Listening on http://0.0.0.0:8080');
 });
